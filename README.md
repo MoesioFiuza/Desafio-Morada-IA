@@ -158,7 +158,7 @@ def run_tkinter():
 Execução do Código
 Para executar a aplicação esta aplicação, recomenda-se, primeiro, a criação de um ambiente virtual, para maior segurança e afim de evitar possíveis conflitos com versões de bibliotecas. Abra sua IDE de escolha e em seguida a pasta onde contém o arquivo .py e o arquivo JSON e execute o comando abaixo no terminal de seu IDE
                                                                    
-                                                                   python -m venv “o nome de sua escola sem as aspas"
+    python -m venv “o nome de sua escolha sem as aspas"
 
 Após a etapa simplesmente execute o scritp com o nome de api.py e interface e servidor funcionaram, cada uma em uma thread separada. Com a interface na thread principal. Ao fazer as requisições de saque, o output do resultado irá para o arquivo json registrando a quantidade mínima de cédulas para a operação, bem como possíveis tentativas mal sucedidas de forma linear vertical: ou seja, o último registro no arquivo json é a tentativa mais recente de saque.
 
