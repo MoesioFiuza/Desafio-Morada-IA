@@ -10,12 +10,21 @@ Estrutura do Código
 O código está dividido em duas principais partes:
 1.	Servidor Flask: Responsável por processar a lógica de saque e calcular a quantidade de cédulas.
 2.	Interface Tkinter: Interface gráfica para o usuário interagir e solicitar saques.
+
+
+
+
+
 Dependências
 •	Flask – Necessário instalação via pip install flask
 •	Requests – Necessário instalação via pip install Requests
 •	Tkinter - Necessário instalação via pip install Tkinter
 •	Json – Biblioteca padrão 
 •	Threading – Biblioteca padrão
+
+
+
+
 
 Código
 Configuração do Servidor Flask
