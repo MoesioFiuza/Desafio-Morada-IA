@@ -16,11 +16,11 @@ O código está dividido em duas principais partes:
 
 
 Dependências
-•	Flask – Necessário instalação via pip install flask
-•	Requests – Necessário instalação via pip install Requests
-•	Tkinter - Necessário instalação via pip install Tkinter
-•	Json – Biblioteca padrão 
-•	Threading – Biblioteca padrão
+1. Flask – Necessário instalação via pip install flask
+2.	Requests – Necessário instalação via pip install Requests
+3.	Tkinter - Necessário instalação via pip install Tkinter
+4.	Json – Biblioteca padrão 
+5.	Threading – Biblioteca padrão
 
 
 
