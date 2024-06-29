@@ -3,11 +3,11 @@
 Documentação código teste Morada AI:
 Interface de Saque com Flask e Tkinter
 
-                                              Descrição Geral
+Descrição Geral
                                               
 Este projeto consiste em uma aplicação que permite aos usuários realizar saques monetários através de uma interface gráfica desenvolvida com Tkinter, enquanto um servidor Flask processa as requisições de saque. A aplicação calcula a quantidade mínima de cédulas necessárias para um determinado valor de saque e mantém um registro de todas as tentativas de saque em um arquivo JSON.
 
-                                               Estrutura do Código
+Estrutura do Código
                                                
 O código está dividido em duas principais partes:
 1.	Servidor Flask: Responsável por processar a lógica de saque e calcular a quantidade de cédulas.
@@ -17,7 +17,7 @@ O código está dividido em duas principais partes:
 
 
 
-                                                Dependências
+ Dependências
 
    
 1. Flask – Necessário instalação via pip install flask
@@ -30,7 +30,7 @@ O código está dividido em duas principais partes:
 
 
 
-                                                   Código
+Código
 Configuração do Servidor Flask
 A primeira parte do código configura um servidor Flask que processa requisições de saque.
 
@@ -63,7 +63,7 @@ def run_flask():
 
                                                             
 
-                                            Funções de Interface e Controle
+Funções de Interface e Controle
                                             
 Estas funções permitem a comunicação entre a interface Tkinter e o servidor Flask.
 
@@ -106,7 +106,10 @@ def realizar_saque_interface(valor_entry, result_label):
         result_label.config(text=f"Erro ao conectar ao servidor: {e}")
 
 
-                                        Interface Gráfica Tkinter
+        
+
+
+Interface Gráfica Tkinter
 A última parte do código define a interface gráfica, configurando o layout e os componentes de interação.
  def show_main_app(root):
     # Configurar estilos
@@ -152,7 +155,7 @@ def run_tkinter():
 
 
 
-                                                      Execução do Código
+Execução do Código
 Para executar a aplicação esta aplicação, recomenda-se, primeiro, a criação de um ambiente virtual, para maior segurança e afim de evitar possíveis conflitos com versões de bibliotecas. Abra sua IDE de escolha e em seguida a pasta onde contém o arquivo .py e o arquivo JSON e execute o comando abaixo no terminal de seu IDE
                                                                    
                                                                    python -m venv “o nome de sua escola sem as aspas"
