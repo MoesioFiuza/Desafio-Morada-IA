@@ -25,6 +25,7 @@ O código está dividido em duas principais partes:
 3.	Tkinter - Necessário instalação via pip install Tkinter
 4.	Json – Biblioteca padrão 
 5.	Threading – Biblioteca padrão
+6.	os - Biblioteca padrão
 
 
 
