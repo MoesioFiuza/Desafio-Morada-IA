@@ -167,6 +167,6 @@ Após a etapa simplesmente execute o scritp com o nome de api.py e interface e s
 
 Comentários sobre desafio:
 
-Saudações time Morada IA! Desde já agradeço demais ser considerado para a vaga e por ter chegado até aqui. Peço desculpas pela demora em devolver o desafio. Agora respondendo sobre a principal dificuldade nesse projeto: com certeza foi decidir em manter a lógica de cálculo das cédulas junto ou não com as requisições HTTPS. Embora eu tenha certeza que separar as duas seja melhor para manipular, dessa vez eu optei por condensar-lás e deixar ambar em um lugar para maior legibilidade e tracking do que eu estava pensando. A interface, extremamente simplista, foi somente para facilitar o input do saque, tendo valor nulo estético nesse projeto. No mais, desejo boa sorte e se não for dessa vez, até a próxima. 
+Saudações time Morada IA! Desde já agradeço demais ser considerado para a vaga e por ter chegado até aqui. Peço desculpas pela demora em devolver o desafio. Agora respondendo sobre a principal dificuldade nesse projeto: com certeza foi decidir em manter a lógica de cálculo das cédulas junto ou não com as requisições HTTP. Embora eu tenha certeza que separar as duas seja melhor para manipular, dessa vez eu optei por condensar-lás e deixar ambar em um lugar para maior legibilidade e tracking do que eu estava pensando. A interface, extremamente simplista, foi somente para facilitar o input do saque, tendo valor nulo estético nesse projeto. No mais, desejo boa sorte e se não for dessa vez, até a próxima. 
 
 
